@@ -1107,6 +1107,9 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+
+
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav {
     margin-top: 0;
@@ -1119,7 +1122,10 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar-expand-lg .navbar-nav {
     align-items: center;
   }
+ 
 }
+
+
 
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-nav {
