@@ -1303,7 +1303,7 @@ a.text-dark:hover, a.text-dark:focus {
 .back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 25px;
+  right: 75px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1313,7 +1313,28 @@ a.text-dark:hover, a.text-dark:focus {
   transition: all .2s ease;
   z-index: 1100;
 }
-
+.back-to-top-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-self: center;
+  transition: all .2s ease;
+  z-index: 1100;
+  
+}
+.back-to-top-whatsapp img{
+  width: 100%;
+  transition: all .2s ease;
+  border-radius: 50%;
+}
+.back-to-top-whatsapp:hover img{
+  width: 110%;
+}
 .back-to-top::after {
   content: "";
   position: absolute;
@@ -1334,7 +1355,7 @@ a.text-dark:hover, a.text-dark:focus {
   background: #6C55F9;
 }
 
-.back-to-top:hover::after {
+.back-to-top:hover::after,.back-to-top-whatsapp::after {
   border-color: #fff;
 }
 

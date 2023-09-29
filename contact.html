@@ -24,6 +24,8 @@
 
   <!-- Back to top button -->
   <div class="back-to-top"></div>
+  <div class="back-to-top-whatsapp"><a href="https://wa.me/919959981284" target="_blank"><img src="./assets/img/WhatsApp_icon.png" alt=""></a></div>
+
   
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="300">
@@ -101,23 +103,27 @@
     <div class="container-fluid mt-4">
       <div class="row" style="justify-content: center;">
         <div class="col-lg-6 mb-5 mb-lg-0 wow fadeInRight">
-          <form action="#" class="contact-form py-5 px-lg-5">
+          <form action="https://formspree.io/f/xbjvplbl" method="post" class="contact-form py-5 px-lg-5">
             <h2 class="mb-4 font-weight-medium text-secondary">Get in touch</h2>
             <div class="row form-group">
               <div class="col-md-6 mb-3 mb-md-0">
                 <label class="text-black" for="fname">First Name</label>
-                <input type="text" id="fname" class="form-control">
+                <input type="text" id="fname" class="form-control" required>
               </div>
               <div class="col-md-6">
                 <label class="text-black" for="lname">Last Name</label>
-                <input type="text" id="lname" class="form-control">
+                <input type="text" id="lname" class="form-control" required>
               </div>
             </div>
     
             <div class="row form-group">
-              <div class="col-md-12">
+              <div class="col-md-6 mb-3 mb-md-0">
                 <label class="text-black" for="email">Email</label>
-                <input type="email" id="email" class="form-control">
+                <input type="tel" id="email" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <label class="text-black" for="phone">Phone</label>
+                <input type="phone" id="phone" class="form-control" required>
               </div>
             </div>
     
@@ -125,14 +131,14 @@
     
               <div class="col-md-12">
                 <label class="text-black" for="subject">Subject</label>
-                <input type="text" id="subject" class="form-control">
+                <input type="text" id="subject" class="form-control" required>
               </div>
             </div>
     
             <div class="row form-group">
               <div class="col-md-12">
                 <label class="text-black" for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                <textarea name="message" required id="message" cols="30" rows="5" class="form-control" placeholder="Write your notes or questions here..."></textarea>
               </div>
             </div>
     
@@ -159,8 +165,8 @@
 
           <div class="social-media-button">
             <a href="#"><span class="mai-logo-facebook-f"></span></a>
-            <a href="#"><span class="mai-logo-twitter"></span></a>
-            <a href="#"><span class="mai-mail"></span></a>
+            <a href="https://wa.me/919959981284"><span class="mai-logo-whatsapp"></span></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@sarabix.com"><span class="mai-mail"></span></a>
             <a href="#"><span class="mai-logo-instagram"></span></a>
             <!-- <a href="#"><span class="mai-logo-youtube"></span></a> -->
           </div>
@@ -168,9 +174,9 @@
    
         <div class="col-lg-3 py-3">
           <h5>Contact Us</h5>
-          <p>Srinagar Colony, Bolarum, Secunderabad, Telangana 500010</p>
-          <a href="#" class="footer-link">+91 9959981284</a>
-          <a href="#" class="footer-link">support@sarabix.com</a>
+          <p><span class="mai-location"></span>Secunderabad, Telangana 500010</p>
+          <a href="https://wa.me/919959981284" class="footer-link">+91 9959981284</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@sarabix.com" target="_blank" class="footer-link">support@sarabix.com</a>
           <a href="contact.html"><button type="submit" class="btn btn-success btn-block mt-2">Let's Connect</button></a>
         </div>
         
